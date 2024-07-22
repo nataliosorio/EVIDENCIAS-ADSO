@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Areas de cuadrados</title>
+    <script src="js/areacua.js"></script>
+</head>
+<body>
+    <script>
+        let lado1 = 4;
+        let lado2 = 8;
+        let lado3 = 9;
+
+        area1 = areas(lado1);
+        area2 = areas(lado2);
+        area3 = areas(lado3);
+
+        console.log("El area del 1 cuadrado como parametro es: "+area1);
+        console.log("El area del 2 cuadrado como parametro es: "+area2);
+        console.log("El area del 3 cuadrado como parametro es: "+area3);
+        console.log(areaMayor(area1, area2, area3));
+
+        let lado4 = 3;
+        let lado5 = 3;
+        let lado6 = 3;
+
+        area4 = areas(lado4);
+        area5 = areas(lado5);
+        area6 = areas(lado6);
+
+        console.log("El area del 1 cuadrado como Expresion es: "+area4);
+        console.log("El area del 2 cuadrado como Expresion es: "+area5);
+        console.log("El area del 3 cuadrado como Expresion es: "+area6);
+        console.log(areaMayor(area4, area5, area6));
+    </script>
+</body>
+</html>

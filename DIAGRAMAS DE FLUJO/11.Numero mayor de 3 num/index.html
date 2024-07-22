@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numero mayor de 3 numeros</title>
+</head>
+<body>
+    <script>
+        let num1
+        let num2
+        let num3
+
+        num1 = 1
+        num2 = 2
+        num3 = 3
+
+        if(num1==num2 && num1==num3 && num3==num2){
+            console.log("Los 3 numeros son iguales");
+        }else{
+            if(num1>num2 && num1>num3){
+                console.log("Numero 1 es mayor");       
+            }else{
+                if(num2>num1 && num2>num3){
+                    console.log("Numero 2 es mayor");
+                }else{
+                    console.log("Numero 3 es mayor");
+                }
+            }
+        }
+    </script>
+</body>
+</html>

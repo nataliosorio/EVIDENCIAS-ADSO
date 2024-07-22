@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pago total del sueldo</title>
+</head>
+<body>
+    <script>
+        let sueldoP;
+        let salarioM;
+        let salud;
+        let pension;
+        let arl;
+        let retencion;
+        let valorDia;
+        let diasTrab;
+        let sueldoTotal;
+        let subTrab;
+        let deducibles;
+
+        valorDia = 43330;
+        diasTrab = 30;
+        salarioM = 1300000;
+
+
+        sueldoP= valorDia * diasTrab;
+
+        if(sueldoP<salarioM*2){
+            subTrab = 114000;
+        }else{
+            subTrab = 0;
+        }
+
+        salud = sueldoP * 0.12;
+        pension = sueldoP * 0.16;
+        arl = sueldoP * 0.052;
+
+        if(sueldoP>salarioM*4){
+            retencion = sueldoP * 0.04;
+        }else{
+            retencion = 0;
+        }
+        deducibles = salud+pension+arl;
+        sueldoTotal = (sueldoP+subTrab)-(retencion+deducibles);
+
+        console.log("El sueldo pagado de la persona es: "+sueldoP+"\n");
+        console.log("El Subsidio de transporte de la persona es: "+subTrab+"\n");
+        console.log("La salud de la persona es: "+salud+"\n");
+        console.log("La pension de la persona es: "+pension+"\n");
+        console.log("El arl de la persona es: "+arl+"\n");
+        console.log("La retencion de la persona es: "+retencion+"\n");
+        console.log("El sueldo total de la persona es: "+sueldoTotal+"\n");
+
+        
+    </script>
+</body>
+</html>

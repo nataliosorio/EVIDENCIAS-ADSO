@@ -1,0 +1,78 @@
+.forma{
+    width: 800px;
+    margin-top: 90px;
+}
+
+.formulario{
+    border-style: solid;
+    border-width: 7px;
+
+  
+    border-radius: 20px;
+    background-color: #1a1a1a;
+    color: #fff;
+    border: 1px solid #333;
+
+    
+}
+
+.respuesta{
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 20px;
+    background-color: #1a1a1a;
+    color: #fff;
+    border: 1px solid #333;
+    
+
+}
+
+.formulario, .respuesta{
+    margin-left: 10px;
+    border-radius: 6px;
+    padding: 30px;
+    color:white
+}
+
+
+body{
+    background-color: black;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    color: #00bfff;
+  }
+  .title2{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #00bfff;
+  }
+  .form-control {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 10px;
+  }
+  .form-label{
+  color: rgba(255, 255, 255, 0.5);
+  left: 10px;
+  font-size: 15px;
+  font-style: italic;
+  }
+  .btn-primary{
+    border: none;
+    padding: 8px;
+    border-radius: 9px;
+    color: #050505;
+    font-size: 16px;
+    transition: transform 0.2s;
+    background-color: #00bfff;
+  }
+  .btn-primary:hover {
+    background-color: #00bfff96;
+    transform: scale(1.1);
+  }

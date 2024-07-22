@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edad de tres personas</title>
+    <script src="js/edad3pers.js"></script>
+</head>
+<body>
+    <script>
+        let fecha1 = 2006
+        let fecha2 = 2004
+        let fecha3 = 1986
+        let actual = 2024
+        let edadP1 = edad(fecha1, actual);
+        let edadP2 = edad(fecha2, actual);
+        let edadP3 = edad(fecha3, actual);
+        let promedioEdad = (edadP1 + edadP2 + edadP3)/3;
+        
+        console.log("La persona 1 "+mayorEdad(edadP1));
+        console.log("La persona 2 "+mayorEdad(edadP2));
+        console.log("La persona 3 "+mayorEdad(edadP3));
+         console.log("El promedio de edades es: "+promedioEdad);
+        console.log(promedioEdades(promedioEdad));
+
+        let edadP4 = edadExp(2006, 2024);
+        let edadP5 = edadExp(2009, 2024);
+        let edadP6 = edadExp(2001, 2024);
+        let promedioExp = (edadP4 + edadP5 + edadP6)/3;
+        
+        console.log("La persona 4 "+mayorEdadExp(edadP4));
+        console.log("La persona 5 "+mayorEdadExp(edadP5));
+        console.log("La persona 6 "+mayorEdadExp(edadP6));
+         console.log("El promedio de edades es: "+promedioExp);
+        console.log(promedioEdadExp(promedioExp));
+    </script>
+</body>
+</html>

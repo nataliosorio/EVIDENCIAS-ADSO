@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porcentaje de notas</title>
+    <script src="js/porcentajenotas.js"></script>
+</head>
+<body>
+    <script>
+
+        let porcExp1 = porcExp(3.6, 0.3);
+        let porcExp2 = porcExp(3.9, 0.3);
+        let porcExp3 = porcExp(2.9, 0.4);
+        let sumaExp = porcExp1+porcExp2+porcExp3;
+        console.log("Porcentaje de la nota 1: "+porcExp1)
+        console.log("Porcentaje de la nota 2: "+porcExp2)
+        console.log("Porcentaje de la nota 3: "+porcExp3)
+        console.log("Suma de los porcentajes: "+sumaExp)
+
+        let porc1 = porcNotas(4.4, 0.3);
+        let porc2 = porcNotas(2.9, 0.3);
+        let porc3 = porcNotas(1.9, 0.4);
+        let suma = porc1+porc2+porc3;
+        console.log("Porcentaje de la nota 1 Exp: "+porc1)
+        console.log("Porcentaje de la nota 2 Exp: "+porc2)
+        console.log("Porcentaje de la nota 3 Exp: "+porc3)
+        console.log("Suma de los porcentajes Exp: "+suma)
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area mayor de cuadrados</title>
+</head>
+<body>
+    <script>
+        let area1;
+        let area2;
+        let area3;
+        let lado1;
+        let lado2;
+        let lado3;
+
+        lado1 = 2;
+        lado2 = 4;
+        lado3 = 6;
+
+        area1 = lado1 * lado1;
+        area2 = lado2 * lado2;
+        area3 = lado3 * lado3;
+
+        if(area1==area2 && area1==area3 && area3==area2){
+            console.log("Las tres areas son iguales");
+        }else{
+            if(area1>area2 && area1>area3){
+                console.log("El area del cuadrado 1 es mayor");
+            }else{
+                if(area2>area1 && area2>area3){
+                    console.log("El area del caudrado 2 es mayor");
+                }else{
+                    console.log("El area del cuadrado 3 es mayor");
+                }
+            }
+        }
+    </script>
+</body>
+</html>

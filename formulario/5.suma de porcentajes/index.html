@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suma de los porcentajes de 3 notas</title>
+
+    <link rel="stylesheet" href="../Librerias/bootstrap-5.3.3-dist/css/bootstrap.css">
+    <script src="../Librerias/bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../Librerias/fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/stylos.css">
+
+</head>
+<body>
+    <div class="container">
+      <div class="col-10 row forma">
+        <div class="formulario col-6">
+          <form class="row g-3 needs-validation" novalidate onsubmit="return sumaPorcentaje();">
+            <p class="title">Suma de porcentajes</p>
+            <div class="col-md-12">
+              <label for="nota1" class="form-label">Nota 1:</label>
+              <input type="number" step="any" class="form-control" id="nota1" required>
+              <div class="valid-feedback">
+                Nota Valida!
+              </div>
+            </div>
+            <div class="col-md-12">
+              <label for="nota2" class="form-label">Nota 2:</label>
+              <input type="number"  step="any" class="form-control" id="nota2" required>
+              <div class="valid-feedback">
+                Nota Valida!
+              </div>
+            </div>
+            <div class="col-md-12">
+              <label for="nota3" class="form-label">Nota 3:</label>
+              <input type="number"  step="any" class="form-control" id="nota3" required>
+              <div class="valid-feedback">
+                Nota Valida!
+              </div>
+            </div>
+                        
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit" >Calcular <i class="fa-regular fa-paper-plane"></i></button >
+            </div>
+          </form>
+        
+        </div>
+        <div class="respuesta col-4">
+          <p class="title2">Respuesta:</p>
+          <div id="sumaporcent"></div>
+        </div>                
+      </div>
+    </div>
+
+
+
+
+    <script src="../Librerias/bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+    <script src="js/validacion.js"></script>
+    <script src="js/porcent.js"></script>
+</body>
+</html>

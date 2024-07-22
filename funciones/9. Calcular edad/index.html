@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persona mayor de edad</title>
+    <script src="js/edad.js"></script>
+</head>
+<body>
+    <script>
+        fechaNaci = 2008
+        fechaNaci2 = 2006
+        fechaActual = 2024
+
+        let edadE = edadExp(fechaNaci, fechaActual);
+        console.log("La edad de la persona Exp es: "+edadE);
+        console.log(mayorExp(edadE));
+
+        let edadP = edad(fechaNaci2, fechaActual);
+        console.log("La edad de la persona es: "+edadP);
+        console.log(edadMayor(edadP));
+
+    </script>
+</body>
+</html>

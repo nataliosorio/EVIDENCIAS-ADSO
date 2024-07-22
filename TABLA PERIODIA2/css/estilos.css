@@ -1,0 +1,195 @@
+.principal{
+    width: 1300px;
+}
+
+.titulo{
+    color: white;
+    text-align: center;
+    text-shadow: 1px 2px red, 3px 3px blue;
+    font-size: 30px; 
+    margin-bottom: -90px;
+}
+
+/* cuadro de categorias */
+.categorias{
+    width: 300px;
+    height: 150px;
+  
+    display: grid;
+    grid-template-columns: 8% 52% 8% 32%;
+    grid-template-rows: repeat(5, 20%);
+    position: relative;
+    top: 190px;
+    left: 560px;
+}
+
+/* cuadrito chiquito  */
+.tipos{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #19057d;
+    border-radius: 5px;
+}
+
+/* textos de las categorias  */
+
+.textos{
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 4px;
+    margin-left: 2px;
+}
+
+.elemento{
+    width: 80px;
+    height: 80px;
+  
+    margin: 1px;
+    border: 1px solid #000;
+    border-radius: 9px;
+  
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 20px 13px 25px 15px;
+    overflow: hidden;
+}
+
+.elemento:hover{
+    transform: scale(1.1);
+    color: hsl(247, 88%, 38%);
+    transition-duration: 0,5s;
+    cursor:pointer;
+}
+
+/* informacion de los elementos  */
+
+.masaAtomica{
+    font-size: 11px;
+    font-weight: 800;
+    text-align: start;
+    padding-right: 5px;
+}
+
+.numeroAtomico{
+    font-size: 12px;
+    text-align: end;
+    font-weight: bold;
+    padding-right: 3px;
+
+
+}
+
+.ionizacion {
+    font-size: 11px;
+
+}
+.electronegatividad {
+    font-size: 10px;
+    text-align: end;
+    padding-right: 3px;
+
+}
+.simbolo {
+    grid-column: 1/3;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: -5px;
+}
+.nombre {
+    grid-column: 1/3;
+    font-size: 9px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+
+  .separacion{
+    margin-bottom: 50px;
+}
+
+
+
+body{
+    background-color: #000000;
+}
+
+/* modales  */
+
+
+h2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.definicion{
+    color: rgb(6, 32, 91);
+}
+.usos{
+    color: rgb(6, 32, 91);
+}
+.caracteristicas{
+    color: rgb(220, 0, 0);
+
+}
+.btn-secondary{
+    color: #000;
+    background-color: rgb(12, 150, 255);
+    border: 3px solid #000;
+}
+.modal-header{
+    background-color: rgb(12, 150, 255);
+}
+.modal-body{
+    background-color: rgb(118, 189, 244);
+}
+
+
+.no-metales{
+    background-color: rgb(225, 147, 241);
+}
+.metal-alcalino{
+    background-color: rgb(82, 181, 234);
+}
+.alcalinoterreos{
+    background-color: rgb(159, 249, 120);
+}
+.transicion{
+    background-color: rgb(253, 128, 169);
+}
+.metaloides{
+    background-color: rgb(255, 252, 87);
+}
+.halogenos{
+    background-color: greenyellow;
+}
+.gas-noble{
+    background-color: rgb(17, 153, 207);
+}
+.otro-metal{
+    background-color: rgb(245, 108, 53);
+}
+.actinidos{
+    background-color: rgb(238, 238, 68);
+}
+.lantanidos{
+    background-color: rgb(56, 178, 56);
+}
+
+
+
+
+
+
+
+
+
+
+  

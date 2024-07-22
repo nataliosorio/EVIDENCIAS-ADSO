@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas hasta el 5 while</title>
+</head>
+<body>
+    <script>
+        let tabla;
+        let contador;
+        let resultado;
+        let impar;
+        let par;
+        let numero;
+
+        tabla = 0;
+        impar = 0;
+        par = 0
+        numero = 5
+
+        while(tabla<numero){
+            tabla = tabla+1;
+            contador = 0;
+            while(contador<numero){
+                contador=contador+1;
+                resultado=tabla*contador;
+                console.log(tabla+"x"+contador+"="+resultado);
+                if(resultado%2==0){
+                    par=par+1;
+                    console.log("Buzz");
+                }else{
+                    impar=impar+1;
+                    console.log("Bass");
+                }
+            }
+        }
+        console.log("Resultados pares: "+par);
+        console.log("Resultados impares: "+impar);
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla 9 while</title>
+</head>
+<body>
+    <script>
+        let numero;
+        let contador;
+        let multiplicador;
+        let tabla;
+
+        numero = 5;
+        contador =0;
+        multiplicador = 1;
+        tabla = 9;
+
+        while(contador<numero){
+            contador=contador+1;
+            multiplicador=tabla*contador
+            if(multiplicador%2==0){
+                console.log(multiplicador+ " Es par");
+                
+            }else{
+                console.log(multiplicador+ " Es impar");
+            }
+        }
+    </script>
+</body>
+</html>

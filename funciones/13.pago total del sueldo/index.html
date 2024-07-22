@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pago total del sueldo</title>
+    <script src="js/pagTotal.js"></script>
+</head>
+<body>
+    <script>
+        let valorDia = 43330;
+        let diasTrabajados = 30;
+
+        let sueldoA = sueldo(diasTrabajados,valorDia);
+        let saludA = salud(sueldoA);
+        let pensionA = pension(sueldoA);
+        let arlA = arl(sueldoA);
+        let retenc = retencionn(sueldoA); 
+        let subT = subTraspor(sueldoA); 
+
+        let totalSueld = totalSueldo(sueldoA);
+
+       
+        console.log("Sueldo bruto: " + sueldoA);
+        
+        console.log("La salud es de: " + saludA);
+        console.log("La pension es de: " + pensionA);
+        console.log("La arl es de: " + arlA);
+        console.log("La retención es de: " + retenc);
+        console.log("El subsidio de transporte: " + subT);
+       
+        console.log(totalSueld);
+        
+
+        //Expresion
+
+        let valorDiaEx = 53000;
+        let diasTrabajadosEx = 30;
+
+        let sueldoB = sueldoExp(diasTrabajadosEx,valorDiaEx);
+        let saludB= saludExp(sueldoB);
+        let pensionB = pensionExp(sueldoB);
+        let arlB = arlExp(sueldoB);
+        let retencB = retenExp(sueldoB); 
+        let subTransporte = subExp(sueldoB); 
+
+        let totalSueldB = totalSueldoExp(sueldoB);
+
+       
+        console.log("Sueldo bruto: " + sueldoB);
+        console.log("La salud es de: " + saludB);
+        console.log("La pension es de: " + pensionB);
+        console.log("La arl es de: " + arlB);
+        console.log("La retención es de: " + retencB);
+        console.log("El subsidio de transporte: " + subTransporte);
+        console.log(totalSueldB);
+       
+
+
+    
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas</title>
+</head>
+<body>
+    <script>
+        let nota1;
+        let nota2;
+        let nota3; 
+        let porc1;
+        let porc2;
+        let porc3;
+        let sumaP;
+
+        nota1 = 4.5
+        nota2 = 3.8
+        nota3 = 2.8
+
+        porc1 = nota1 * 0.2;
+        porc2 = nota2 * 0.35;
+        porc3 = nota3 * 0.45;
+
+        sumaP = porc1+porc2+porc3;
+
+        if(sumaP>4.5){
+            console.log("Es una nota superior");
+        }else{
+            if(sumaP<4.5 && sumaP>3.5){
+                console.log("Es una nota buena");
+            }else{
+                if(sumaP<3.5 && sumaP>3.0){
+                    console.log("Es una nota media");
+                }else{
+                    console.log("Es una nota mala");
+                }
+            }
+        }
+    </script>
+</body>
+</html>

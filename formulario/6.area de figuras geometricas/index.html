@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area de figuras</title>
+
+    <link rel="stylesheet" href="../Librerias/bootstrap-5.3.3-dist/css/bootstrap.css">
+    <script src="../Librerias/bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../Librerias/fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/stylos.css">
+
+</head>
+<body>
+
+
+  <div class="container">
+    <div class="col-10 row forma">
+      <div class="formulario col-6">
+        <form class="row g-3 needs-validation" novalidate onsubmit="return areas();">
+          <p class="title">Área de figuras</p>
+          <div class="col-md-12">
+            <label for="lado" class="form-label">Medida del lado del cuadrado en centimetros:</label>
+            <input type="number" step="any" class="form-control" id="lado" required>
+            <div class="valid-feedback">
+              Medida Valida!
+            </div>
+          </div>
+
+          <div class="col-md-12">
+            <label for="alturaR" class="form-label">Altura del rectangulo:</label>
+            <input type="number" step="any" class="form-control" id="alturaR" required>
+            <div class="valid-feedback">
+              Medida Valida!
+            </div>
+          </div>
+          
+          <div class="col-md-12">
+            <label for="baseR" class="form-label">Base del rectangulo:</label>
+            <input type="number" step="any" class="form-control" id="baseR" required>
+            <div class="valid-feedback">
+              Medida Valida!
+            </div>
+          </div>
+          
+          
+          <div class="col-md-12">
+            <label for="alturaT" class="form-label">Altura del triangulo:</label>
+            <input type="number" step="any" class="form-control" id="alturaT" required>
+            <div class="valid-feedback">
+              Medida Valida!
+            </div>
+          </div>
+                
+          <div class="col-md-12">
+            <label for="baseT" class="form-label">Base del triangulo:</label>
+            <input type="number" step="any" class="form-control" id="baseT" required>
+            <div class="valid-feedback">
+              Medida Valida!
+            </div>
+          </div>
+
+
+                   
+          <div class="col-12">
+            <button class="btn" type="submit" >Calcular <i class="fa-regular fa-paper-plane"></i></button >
+          </div>
+        </form>
+
+            
+      </div>
+      <div class="respuesta col-4">
+        <p class="title2">Respuesta:</p>
+        <div id="areafiguras"></div>
+      </div>            
+    </div>
+  </div>
+
+
+
+
+</body>
+</html>
+
+
+      
+
+
+
+
+<script src="../Librerias/bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+<script src="js/validacion.js"></script>
+    <script src="js/areas.js"></script>
+</body>
+</html>

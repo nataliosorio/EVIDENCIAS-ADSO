@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pago total</title>
+    <script src="js/pagototal.js"></script>
+</head>
+<body>
+    <script>
+        
+        let valorDia = 43330;
+        let diasTrabajados = 30;
+
+        let sueldoA = sueldo(diasTrabajados,valorDia);
+        let saludA = salud(sueldoA);
+        let pensionA = pension(sueldoA);
+        let arlA = arl(sueldoA);
+        let totalSueld = totalSueldo(sueldoA);
+
+        
+        console.log("Sueldo bruto: " + sueldoA);
+
+        console.log("La salud es de: " + saludA);
+        console.log("La pension es de: " + pensionA);
+        console.log("La arl es de: " + arlA);
+        
+        console.log(totalSueld);
+      
+
+        //como Expresion
+
+        let sueldoB = sueldoExp(diasTrabajados,valorDia);
+        let saludB= saludExp(sueldoB);
+        let pensionB = pensionExp(sueldoB);
+        let arlB = arlExp(sueldoB);
+        let totalSueldB = totalSueldoExp(sueldoB);
+
+        console.log("Sueldo bruto: " + sueldoB);
+        
+        console.log("La salud es de: " + saludB);
+        console.log("La pension es de: " + pensionB);
+        console.log("La arl es de: " + arlB);
+      
+        console.log(totalSueldB);
+        
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular 3 notas</title>
+    <script src="js/cal3nots.js"></script>
+</head>
+<body>
+    <script>
+
+        let nota1 = 4.4
+        let nota2 = 2.9
+        let nota3 = 2.9
+        let porc1 = porcNotas(nota1, 0.2);
+        let porc2 = porcNotas(nota2, 0.35);
+        let porc3 = porcNotas(nota3, 0.45);
+
+        console.log("Porcentaje de la nota 1: "+porc1)
+        console.log("Porcentaje de la nota 2: "+porc2)
+        console.log("Porcentaje de la nota 3: "+porc3)
+       
+        let sumaPorc = suma(porc1, porc2, porc3);
+        console.log("la suma de los porcentajes "+sumaPorc);
+
+        //como expresion
+
+        let nota4 = 4.3
+        let nota5 = 1.9
+        let nota6 = 1.4
+
+        let porc4 = porcExp(nota4, 0.2);
+        let porc5 = porcExp(nota5, 0.35);
+        let porc6 = porcExp(nota6, 0.45);
+
+        console.log("Porcentaje de la nota 4: "+porc4)
+        console.log("Porcentaje de la nota 5: "+porc5)
+        console.log("Porcentaje de la nota 6: "+porc6)
+       
+        let sumaPorcP = sumaExp(porc4, porc5, porc6);
+        console.log("la suma de los porcentajes "+sumaPorcP);
+
+
+
+    </script>
+</body>
+</html>

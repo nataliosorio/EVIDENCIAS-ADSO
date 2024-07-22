@@ -1,0 +1,87 @@
+.forma{
+    width: 800px;
+    margin-top: 90px;
+  }
+  
+  .formulario {
+    border-width: 7px;
+    padding: 20px;
+    background-color: #161616;
+    box-shadow: 0px 15px 45px #4810b7;
+    border-radius: 20px;
+  }
+  
+body{
+    background-color: black;
+}
+  .respuesta{
+    height: 400px;
+    margin-left: 30px;
+    border-width: 7px;
+  
+    padding: 20px;
+    background-color: #161616;
+    box-shadow: 6px 15px 30px #00FF7F;
+    border-radius: 20px;
+    color: antiquewhite;
+  }
+  
+  .title{
+    color: #00FF7F;
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .title2{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    color: #00FF7F;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+  }
+  
+  
+  .form-label{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+  
+  }
+  .form-control{
+    border: none;
+    padding: 11px 25px;
+    background: transparent;
+  
+    box-shadow: 0 2px 5px rgb(255, 255, 255);
+    border-radius: 8px;
+    font-weight: 600;
+    color: #31f745;
+  }
+  .form-control:hover {
+    color: #28f340;
+    box-shadow: 0 2px 10px rgba(240, 55, 234, 0.874);
+  }
+  
+  
+  .btn{
+    margin-bottom: 10px;
+    color: #00FF7F;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 15px;
+    outline: 1px solid #00FF7F;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .btn:hover {
+    transform: scale(1.1);
+    background-color: #00FF7F;
+    color: #161616;
+    cursor: pointer;
+  }
+  

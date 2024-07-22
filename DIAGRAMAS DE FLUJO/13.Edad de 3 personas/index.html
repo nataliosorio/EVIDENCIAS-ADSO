@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edad de 3 personas</title>
+</head>
+<body>
+    <script>
+        let edad1;
+        let edad2;
+        let edad3;
+        let fechaAct;
+        let prom;
+        let fechaNac1;
+        let fechaNac2;
+        let fechaNac3;
+
+        fechaAct = 2024
+        fechaNac1 = 1996
+        fechaNac2 = 2007
+        fechaNac3 = 1985
+
+        edad1 = fechaAct - fechaNac1;
+        edad2 = fechaAct - fechaNac2;
+        edad3 = fechaAct - fechaNac3;
+
+        if(edad1>=18){
+            console.log("Persona 1 es mayor de edad");
+        }else{
+            console.log("Persona 1 es menor de edad");
+        }
+
+
+        if(edad2>=18){
+            console.log("Persona 2 es mayor de edad");
+        }else{
+            console.log("Persona 2 es menor de edad");
+        }
+
+
+        if(edad3>=18){
+            console.log("Persona 3 es mayor de edad");
+        }else{
+            console.log("Persona 3 es menor de edad");
+        }
+
+        prom = (edad1+edad2+edad3)/3
+        if(prom>=18){
+            console.log("El promedio de edades alcanza la mayoria de edad");
+        }else{
+            console.log("El promedio de edades no alcanza la mayoria de edad");
+        }
+
+    </script>
+</body>
+</html>
