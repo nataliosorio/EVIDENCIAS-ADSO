@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edad de una persona</title>
+
+    <link rel="stylesheet" href="../Librerias/bootstrap-5.3.3-dist/css/bootstrap.css">
+    <script src="../Librerias/bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../Librerias/fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/stylos.css">
+
+</head>
+<body>
+    <div class="container">
+      <div class="col-10 row forma">
+        <div class="formulario col-6">
+          <form class="row g-3 needs-validation" novalidate onsubmit="return edadPerson();">
+            <p class="title">CALCULA AQUI TU EDAD!!</p>
+            <div class="col-md-12">
+              <label for="fecha-hoy" class="form-label">Ingresa el año actual:</label>
+              <input type="number" class="form-control" id="fecha-hoy" required>
+              <div class="valid-feedback">
+                Fecha valida!
+              </div>
+            </div>
+            <div class="col-md-12">
+              <label for="fecha-nac" class="form-label">Ingresa el año de tu nacimiento:</label>
+              <input type="number" class="form-control" id="fecha-nac" required>
+              <div class="valid-feedback">
+                Fecha valida!
+              </div>
+            </div>
+            
+            <div class="col-12">
+              <button class="btn" type="submit" >Calcular Edad <i class="fa-regular fa-paper-plane"></i></button >
+            </div>
+          </form>
+        
+        </div>
+        <div class="respuesta col-4">
+          <p class="title2">Respuesta:</p>
+            <div id="operacioness"></div>
+        </div>                
+      </div>
+    </div>
+
+
+
+
+    <script src="../Librerias/bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+    <script src="js/validacion.js"></script>
+    <script src="js/edad.js"></script>
+</body>
+</html>
