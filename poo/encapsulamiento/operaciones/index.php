@@ -11,7 +11,6 @@ $numerouno = $operaciones->getNumeroUno();
 $operaciones->setNumeroDos(2);
 $numeroDos = $operaciones->getNumeroDos();
 
-
 ?>
 
 
@@ -54,14 +53,6 @@ $numeroDos = $operaciones->getNumeroDos();
             </tbody>
         </table>
     </div>
-
-    <!-- <?php
-
-    echo $control->sumar($numerouno,$numeroDos). "<br>";
-    echo $control->restar($numerouno,$numeroDos) . "<br>";
-    echo $control->multiplicar($numerouno,$numeroDos). "<br>";
-    echo $control->dividir($numerouno,$numeroDos);
-    ?> -->
     
         <script src="../../libreria/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>

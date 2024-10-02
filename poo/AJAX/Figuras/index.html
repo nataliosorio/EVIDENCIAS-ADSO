@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras</title>
+    <script src="../../libreria/bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../../libreria/bootstrap/css/bootstrap.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="col-12 row">
+            <div class="col-4 d-flex justify-content-center m-4" style="align-items: center;">
+                <form id="formFiguras">
+                    <label class="form-label" for="baseRec">Base del Rectangulo</label>
+                    <input class="form-control baseRec" type="number">
+
+                    <label class="form-label" for="alturaRec">Altura del rectangulo</label>
+                    <input class="form-control alturaRec" type="number">
+
+                    <label class="form-label" for="baseTri">Base del Triangulo</label>
+                    <input class="form-control baseTri" type="number">
+
+
+                    <label class="form-label" for="alturaTri">Altura del Triangulo</label>
+                    <input class="form-control alturaTri" type="number">
+
+                    <label class="form-label" for="lado">Lado del cuadrado</label>
+                    <input class="form-control lado" type="number">
+
+                    <button type="submit" class="btn btn-danger m-4">Calcular</button>
+                </form>
+            </div>
+            <div class="col-8" id="respuesta"></div>
+        </div>
+    </div> 
+    
+
+</body>
+</html>
